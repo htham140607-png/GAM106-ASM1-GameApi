@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+*.user
+appsettings.*.json
+.env
+.env.*
+secrets.json
+*.suo
+.playwright-mcp/

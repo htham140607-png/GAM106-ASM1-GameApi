@@ -1,0 +1,82 @@
+{
+  "username": "asm1_mwvujpn8",
+  "otherCharacterId": 2,
+  "jwtSecondsRemaining": 86391,
+  "tests": [
+    {
+      "id": "TC01",
+      "expected": 201,
+      "actual": 201
+    },
+    {
+      "id": "TC02",
+      "expected": 409,
+      "actual": 409
+    },
+    {
+      "id": "TC03",
+      "expected": 400,
+      "actual": 400
+    },
+    {
+      "id": "TC04",
+      "expected": 401,
+      "actual": 401
+    },
+    {
+      "id": "TC05",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "id": "TC06",
+      "expected": 401,
+      "actual": 401
+    },
+    {
+      "id": "TC07",
+      "actual": "Authorized"
+    },
+    {
+      "id": "TC08",
+      "expected": 201,
+      "actual": 201,
+      "body": {
+        "id": 1,
+        "name": "Hiep Si Rong",
+        "class": "Warrior",
+        "level": 1,
+        "hp": 100,
+        "accountId": 4
+      }
+    },
+    {
+      "id": "TC09",
+      "expected": 400,
+      "actual": 400
+    },
+    {
+      "id": "TC10",
+      "expected": 200,
+      "actual": 200,
+      "body": {
+        "id": 1,
+        "name": "Hiep Si Rong",
+        "class": "Paladin",
+        "level": 5,
+        "hp": 250,
+        "accountId": 4
+      }
+    },
+    {
+      "id": "TC11",
+      "expected": 400,
+      "actual": 400
+    },
+    {
+      "id": "TC12",
+      "expected": 404,
+      "actual": 404
+    }
+  ]
+}
